@@ -76,7 +76,7 @@
 
         function onEachFeature2(feature, layer) {
             if (feature.properties) {
-                layer.bindPopup('<p> Zonificación: ' + feature.properties.zonificacion + '</p><p>Volumen frecuenciado: ' + feature.properties.Volumen_frecuenciado + '</p><p>Total de paquetes con ETA: ' + feature.properties.Total_paquetes + '</p>' + 'ETA ajustado: ' + feature.properties.ETA_AJUSTADO1 + '</p>');
+                layer.bindPopup('<p> Zonificación: ' + feature.properties.zonificacion + '</p><p>Volumen frecuenciado: ' + feature.properties.escenario1 + '</p><p>Total de paquetes con ETA: ' + feature.properties.Total_paquetes + '</p>' + 'ETA ajustado: ' + feature.properties.ETA_AJUSTADO1 + '</p>');
             }
         }
 
